@@ -4,8 +4,9 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
-
+  
   background-color: var(--bg);
+  transition: 0.5s;
 }
 
 body.dark {
