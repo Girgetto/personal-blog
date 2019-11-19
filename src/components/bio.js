@@ -54,10 +54,9 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Madrid.
-        {` `}
+        My personal blog by{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          Giorgio Grassini
         </a>
       </p>
     </div>
