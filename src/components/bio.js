@@ -55,7 +55,7 @@ const Bio = () => {
       />
       <p>
         My personal blog by{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>
+        <a target='_blank' href={`https://twitter.com/${social.twitter}`}>
           Giorgio Grassini
         </a>
       </p>

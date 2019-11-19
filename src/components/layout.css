@@ -15,7 +15,7 @@ body.dark {
   --bg: darkslategray;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
-  --textLink: black;
+  --textLink: rgb(134, 165, 49);
   --hr: hsla(0, 0%, 100%, 0.2);
 }
 
@@ -71,7 +71,7 @@ body.dark {
 
 .form-switch input { display: none; }
 
-.form-switch input:checked + i { background-color: #4BD763; }
+.form-switch input:checked + i { background-color: rgb(134, 165, 49); }
 
 .form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
 
