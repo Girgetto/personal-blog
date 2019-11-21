@@ -20,7 +20,7 @@ body.dark {
   --code-color: #fff;
 }
 
-h1, a {
+h1, a, small, footer, header {
   color: var(--textNormal);
 }
 

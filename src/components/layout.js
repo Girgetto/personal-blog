@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import './layout.css'
 
 import { rhythm, scale } from "../utils/typography"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"

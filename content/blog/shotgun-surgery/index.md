@@ -4,7 +4,7 @@ date: "2015-05-29"
 description: Shotgun Surgery refers to when a single change is made to multiple classes simultaneously.
 ---
 
-```jsx
+```js
 const bankAccount = {
   amount: 10
 };
