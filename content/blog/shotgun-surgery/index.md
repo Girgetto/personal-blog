@@ -4,6 +4,13 @@ date: "2015-05-29"
 description: Shotgun Surgery refers to when a single change is made to multiple classes simultaneously.
 ---
 
+Shotgun Surgery refers to when a single change is made to multiple classes simultaneously. 
+
+>How can I recognize it?
+
+When you are changing different parts of your code for just one functionality that could by a __shotgun surgery__.
+
+We are going to make an example with javascript functional programming 
 ```js
 const bankAccount = {
   amount: 10
@@ -25,7 +32,4 @@ const checkYourBalance = () => {
 
   console.log(`${bankAccount.amount} €`);
 };
-
-checkYourBalance();
-transfer(2);
 ```
