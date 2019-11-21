@@ -17,6 +17,11 @@ body.dark {
   --textTitle: white;
   --textLink: rgb(134, 165, 49);
   --hr: hsla(0, 0%, 100%, 0.2);
+  --code-color: #fff;
+}
+
+h1, a {
+  color: var(--textNormal);
 }
 
 .form-switch {
@@ -136,4 +141,38 @@ body.dark {
 
 .token.namespace {
   color: rgb(178, 204, 214);
+}
+
+.gatsby-highlight {
+  margin-bottom: 1.75rem;
+  border-radius: 10px;
+  background: #011627;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+pre[class*=language-] {
+  overflow: auto;
+  padding: 1.3125rem;
+}
+
+code[class*=language-], pre[class*=language-] {
+  color: #fff;
+  background: none;
+  font-family: Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
