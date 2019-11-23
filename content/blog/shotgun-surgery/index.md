@@ -37,7 +37,7 @@ const checkYourBalance = () => {
 In this example if we need to change the condition we will need to modified the code twice, we can avoid it by insert the condition in a function.
 
 ```js
-const isUnderBudget = () => bankAccount.amount <= 0;s
+const isUnderBudget = () => bankAccount.amount <= 0;
 ```
 
 There is another part of the code that could be move to only one method
