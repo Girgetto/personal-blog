@@ -8,6 +8,8 @@ Let's see same cases of uncommunicative name
 
 > Use meaningful and pronounceable variable names
 
+Try to find descriptive names for variable names
+
 bad ❌:
 
 ```js
@@ -68,7 +70,8 @@ const address = () => {
 ```
 
 > Avoid Mental Mapping
-> Explicit is better than implicit.
+
+Explicit is better than implicit, for example don't use just letters when your are iterating a an array 
 
 bad ❌:
 
@@ -104,6 +107,8 @@ const locations = () => {
 ```
 
 > Give usefully name to functions
+
+When you declare functions try to decelerate with descriptive names 
 
 bad ❌:
 
