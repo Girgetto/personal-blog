@@ -12,6 +12,8 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    console.log(previous)
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
