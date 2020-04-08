@@ -7,12 +7,10 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render() {    
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
-
-    console.log(previous)
+    const { previous, next } = this.props.pageContex
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
