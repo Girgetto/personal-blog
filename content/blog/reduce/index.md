@@ -1,3 +1,9 @@
+---
+title: Reduce
+date: "2020-06-22"
+description: Reduce JS method.
+---
+
 # Reduce [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
