@@ -82,6 +82,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    plugins: [`gatsby-plugin-sitemap`]
+    `gatsby-plugin-sitemap`
   ],
 }
