@@ -3,7 +3,7 @@ module.exports = {
     title: `Girgetto.io`,
     author: `Giorgio Grassini`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://https://girgetto-io.netlify.com/`,
+    siteUrl: `https://girgetto-io.netlify.com/`,
     social: {
       twitter: `__Giorgio_`,
     },
