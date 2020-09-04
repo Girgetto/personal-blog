@@ -20,6 +20,11 @@ body.dark {
   --code-color: #fff;
 }
 
+body.dark td, th {
+  color: white;
+  border: 1px solid white;
+}
+
 h1, a, small, footer, header {
   color: var(--textNormal);
 }
