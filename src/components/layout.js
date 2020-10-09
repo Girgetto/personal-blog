@@ -61,7 +61,13 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <header
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           {header}
           <ThemeToggler>
             {({ theme, toggleTheme }) => (
@@ -83,6 +89,16 @@ class Layout extends React.Component {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <div>
+            Iconos diseñados por{" "}
+            <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
+              Freepik
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.es/" title="Flaticon">
+              www.flaticon.es
+            </a>
+          </div>
         </footer>
       </div>
     )
