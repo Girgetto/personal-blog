@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Girgetto.io`,
     author: `Giorgio Grassini`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Personal blog by Giorgio Grassini.`,
     siteUrl: `https://girgetto-io.netlify.com/`,
     social: {
       twitter: `__Giorgio_`,
