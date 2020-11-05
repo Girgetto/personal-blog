@@ -1,3 +1,9 @@
+---
+title: Hacktoberfest 2020
+date: "2020-11-05"
+description: My 2020 Hacktoberfest experience
+---
+
 ### What I've done
 
 I've completed the 4 PRs for the Hacktoberfest, all of them are Italian translations for websites or documentation.
