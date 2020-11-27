@@ -4,7 +4,7 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
-  
+
   background-color: var(--bg);
   transition: 0.5s;
 }
@@ -20,12 +20,20 @@ body.dark {
   --code-color: #fff;
 }
 
-body.dark td, th {
+body.dark td,
+th {
   color: white;
   border: 1px solid white;
 }
 
-h1, a, small, footer, header {
+h1,
+a,
+small,
+footer,
+header,
+ul,
+ol,
+em {
   color: var(--textNormal);
 }
 
@@ -38,7 +46,7 @@ h1, a, small, footer, header {
 .form-switch i {
   position: relative;
   display: inline-block;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   width: 46px;
   height: 26px;
   background-color: #e6e6e6;
@@ -77,15 +85,25 @@ h1, a, small, footer, header {
   transform: translate3d(2px, 2px, 0);
 }
 
-.form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+.form-switch:active input:checked + i::after {
+  transform: translate3d(16px, 2px, 0);
+}
 
-.form-switch input { display: none; }
+.form-switch input {
+  display: none;
+}
 
-.form-switch input:checked + i { background-color: rgb(134, 165, 49); }
+.form-switch input:checked + i {
+  background-color: rgb(134, 165, 49);
+}
 
-.form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
+.form-switch input:checked + i::before {
+  transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
+}
 
-.form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
+.form-switch input:checked + i::after {
+  transform: translate3d(22px, 2px, 0);
+}
 
 .token.attr-name {
   color: rgb(173, 219, 103);
@@ -123,7 +141,7 @@ h1, a, small, footer, header {
 .token.selector,
 .token.doctype {
   color: rgb(199, 146, 234);
-  font-style: 'italic';
+  font-style: "italic";
 }
 
 .token.class-name {
@@ -156,15 +174,16 @@ h1, a, small, footer, header {
   overflow: auto;
 }
 
-pre[class*=language-] {
+pre[class*="language-"] {
   overflow: auto;
   padding: 1.3125rem;
 }
 
-code[class*=language-], pre[class*=language-] {
+code[class*="language-"],
+pre[class*="language-"] {
   color: #fff;
   background: none;
-  font-family: Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;
+  font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   text-align: left;
