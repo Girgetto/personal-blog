@@ -85,7 +85,6 @@ In this example in the start function of the mongo component will be injected a 
 This is a basic system represented as a train
 
 And what about if I want to:
-
 - Wrap components together → [Bootstraping-components](https://guidesmiths.github.io/systemic/#/?id=bootstraping-components)
 - Aliasing a coach → [mapping-dependencies](https://guidesmiths.github.io/systemic/#/?id=mapping-dependencies)
 - Injecting only a sub part of a component → [scoped-dependencies](https://guidesmiths.github.io/systemic/#/?id=scoped-dependencies)
@@ -98,13 +97,11 @@ And what about if I want to:
 A lot of components that can be use with systemic may be already created and shipped as npm packages like: [systemic-rabbitmq](https://www.npmjs.com/package/systemic-rabbitmq) or [systemic-mongodb](https://www.npmjs.com/package/systemic-mongodb)
 
 # Yo systemic
-
 Systemic has its own [yeoman generator](https://github.com/guidesmiths/generator-systemic) to speed up the creation of a new project ready to be filled in with your own business logic. It will create a system with a bunch of ready to be used capabilities like components, config, docs, test, docker's files, eslint's files. Like this [codesandbox](https://codesandbox.io/s/zen-thunder-0uuqj?file=/index.js).
 
 If you need to see an example with some business logic already in place you can use the flag `--showcase` and check a real-word example.
 
 # Conclusions
-
 This was just a little chat about what systemic is capable of, in a real-world scenario we can imagine a Systemic based application to be like some kind of huge train system, where each train, coach and passenger can communicate, share information start or stop whenever they need.
 
 There may be some downside, Systemic may not work in the way you are used to organizing your code and its ecosystem may still miss something. That's why I wrote this article, I wanted to let you know Systemic is out there, and we can grow it together.
