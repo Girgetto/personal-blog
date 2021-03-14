@@ -271,9 +271,9 @@
   "resolved" "https://registry.npmjs.org/@babel/helpers/-/helpers-7.12.5.tgz"
   "version" "7.12.5"
   dependencies:
-    "@babel/template" "^7.10.4"
-    "@babel/traverse" "^7.12.5"
-    "@babel/types" "^7.12.5"
+    "@babel/template" "^7.12.13"
+    "@babel/traverse" "^7.13.0"
+    "@babel/types" "^7.13.0"
 
 "@babel/highlight@^7.12.13":
   "integrity" "sha512-5aPpe5XQPzflQrFwL1/QoeHkP2MsA4JCntcXHRhEsdsfPVkvPi2w7Qix4iV7t5S/oC9OodGrggd8aco1g3SZFg=="
@@ -454,7 +454,7 @@
   "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.10.4.tgz"
   "version" "7.10.4"
   dependencies:
-    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-logical-assignment-operators@^7.10.4":
   "integrity" "sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig=="
@@ -1004,7 +1004,7 @@
   "resolved" "https://registry.npmjs.org/@graphql-tools/graphql-file-loader/-/graphql-file-loader-6.2.6.tgz"
   "version" "6.2.6"
   dependencies:
-    "@graphql-tools/import" "^6.2.5"
+    "@graphql-tools/import" "^6.2.6"
     "@graphql-tools/utils" "^7.0.0"
     "tslib" "~2.0.1"
 
@@ -1056,8 +1056,8 @@
   "version" "6.4.0"
   dependencies:
     "@graphql-tools/delegate" "^7.0.1"
-    "@graphql-tools/utils" "^7.0.1"
-    "@graphql-tools/wrap" "^7.0.0"
+    "@graphql-tools/utils" "^7.1.5"
+    "@graphql-tools/wrap" "^7.0.4"
     "@types/websocket" "1.0.1"
     "cross-fetch" "3.0.6"
     "subscriptions-transport-ws" "0.9.18"
@@ -1549,6 +1549,10 @@
   "resolved" "https://registry.npmjs.org/@types/component-emitter/-/component-emitter-1.2.10.tgz"
   "version" "1.2.10"
 
+"@types/component-emitter@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@types/component-emitter/-/component-emitter-1.2.10.tgz#ef5b1589b9f16544642e473db5ea5639107ef3ea"
+
 "@types/configstore@^2.1.1":
   "resolved" "https://registry.npmjs.org/@types/configstore/-/configstore-2.1.1.tgz"
   "version" "2.1.1"
@@ -1562,6 +1566,14 @@
   "integrity" "sha512-C7srjHiVG3Ey1nR6d511dtDkCEjxuN9W1HWAEjGq8kpcwmNM6JJkpC0xvabM7BXTG2wDq8Eu33iH9aQKa7IvLQ=="
   "resolved" "https://registry.npmjs.org/@types/cors/-/cors-2.8.10.tgz"
   "version" "2.8.10"
+
+"@types/cookie@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.4.0.tgz#14f854c0f93d326e39da6e3b6f34f7d37513d108"
+
+"@types/cors@^2.8.8":
+  version "2.8.10"
+  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.10.tgz#61cc8469849e5bcdd0c7044122265c39cec10cf4"
 
 "@types/debug@^0.0.30":
   "resolved" "https://registry.npmjs.org/@types/debug/-/debug-0.0.30.tgz"
@@ -9485,7 +9497,7 @@
   "resolved" "https://registry.npmjs.org/parse5/-/parse5-3.0.3.tgz"
   "version" "3.0.3"
   dependencies:
-    "@types/node" "*"
+    parse5 "^6.0.1"
 
 "parse5@^5.0.0":
   "resolved" "https://registry.npmjs.org/parse5/-/parse5-5.1.1.tgz"
