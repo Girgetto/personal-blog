@@ -4,6 +4,7 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
+  --code-color: #000;
 
   background-color: var(--bg);
   transition: 0.5s;
@@ -183,7 +184,7 @@ pre[class*="language-"] {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #fff;
+  color: var(--code-color);
   background: none;
   font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
   -webkit-font-feature-settings: normal;
