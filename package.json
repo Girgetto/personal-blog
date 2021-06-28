@@ -29,7 +29,7 @@
     "gatsby-transformer-remark": "^2.8.15",
     "gatsby-transformer-sharp": "^2.5.5",
     "highlight.js": "^10.5.0",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.24.0",
     "react": "^16.13.1",
     "react-cookie-consent": "^6.2.3",
     "react-dom": "^16.13.1",
