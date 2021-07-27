@@ -72,14 +72,16 @@ class Layout extends React.Component {
           <ThemeToggler>
             {({ theme, toggleTheme }) => (
               <label className="form-switch">
+                <span role="img">☀️</span>
                 <input
                   type="checkbox"
-                  onChange={e =>
+                  onChange={e => {
                     toggleTheme(e.target.checked ? "dark" : "light")
-                  }
+                  }}
                   checked={theme === "dark"}
                 />
                 <i></i>
+                <span role="img">🌙</span>
               </label>
             )}
           </ThemeToggler>
