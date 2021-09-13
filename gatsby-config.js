@@ -4,12 +4,12 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    title: `Girgetto.io`,
+    title: `Girgetto`,
     author: `Giorgio Grassini`,
     description: `Personal blog by Giorgio Grassini.`,
-    siteUrl: `https://girgetto-io.netlify.com/`,
+    siteUrl: `https://girgetto.netlify.com/`,
     social: {
-      twitter: `__Giorgio_`,
+      twitter: `GirgettoIT`,
     },
   },
   plugins: [
