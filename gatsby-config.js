@@ -14,12 +14,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [process.env.GOOGLE_ANALYTICS_ID],
-      },
-    },
-    {
       resolve: "gatsby-plugin-i18n",
       options: {
         langKeyDefault: "en",
